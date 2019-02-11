@@ -2,6 +2,8 @@
 <html>
 
 <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+
     <h1>Buttons!</h1>
 </head>
 
@@ -12,10 +14,13 @@
     <button onclick="ShowPicture()">Hide Cat Gif</button>
 
     <div id="myDIV">
-        <img src="https://media1.giphy.com/media/nNxT5qXR02FOM/giphy.gif" alt="div picture" height="500" width="500">
+        <img id="cat" src="https://media1.giphy.com/media/nNxT5qXR02FOM/giphy.gif" alt="div picture" height="500" width="500">
     </div>
-    <button type="button">Click Me!</button>
-    <button type="button">Click Me!</button>
+    <button onclick="ShowAnimation()">Hide Animation</button>
+
+    <div id="animation-div">
+    </div>    <button type="button">Click Me!</button>
+    
     <button type="button">Click Me!</button>
 
 
