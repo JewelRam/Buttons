@@ -4,3 +4,12 @@ let GoToYoutube = () => {
 
   }
 document.getElementById("youtube").addEventListener("click", GoToYoutube );
+
+function ShowPicture() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
