@@ -6,11 +6,11 @@ let GoToYoutube = () => {
 document.getElementById("youtube").addEventListener("click", GoToYoutube );
 
 function ShowPicture() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+  var pic = document.getElementById("myDIV");
+  if (pic.style.display === "none") {
+    pic.style.display = "block";
   } else {
-    x.style.display = "none";
+    pic.style.display = "none";
   }
 }
 function ShowAnimation() {

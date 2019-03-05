@@ -20,3 +20,7 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
   }
+  #hover:hover {
+      color: blue;
+      background-color: yellow;
+  }
